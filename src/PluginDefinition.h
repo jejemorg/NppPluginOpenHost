@@ -22,14 +22,14 @@
 // All difinitions of plugin interface
 //
 #include "PluginInterface.h"
-//Def emplacement fichier à ouvrir
+//Def emplacement fichier Ã  ouvrir
 const TCHAR iniFilePath[128]= TEXT("C:\\Windows\\system32\\drivers\\etc\\hosts");
 //-------------------------------------//
 //-- STEP 1. DEFINE YOUR PLUGIN NAME --//
 //-------------------------------------//
 // Here define your plugin name
 //
-const TCHAR NPP_PLUGIN_NAME[] = TEXT("Ouvrir Host file");
+const TCHAR NPP_PLUGIN_NAME[] = TEXT("Open Host file");
 
 //-----------------------------------------------//
 //-- STEP 2. DEFINE YOUR PLUGIN COMMAND NUMBER --//
@@ -70,7 +70,7 @@ bool setCommand(size_t index, TCHAR *cmdName, PFUNCPLUGINCMD pFunc, ShortcutKey 
 
 //
 // Your plugin command functions
-//déclaration fonction a utiliser
+//dÃ©claration fonction a utiliser
 void ouvrir();
 void helloDlg();
 
